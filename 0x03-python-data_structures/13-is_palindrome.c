@@ -1,16 +1,16 @@
 #include "lists.h"
 
 /**
- * reverse - half of thee list
+ * reverse - reverses the second half of the list
  *
  * @h_r: head of the second half
- * Retrun: 0
+ * Return: no return
  */
 void reverse(listint_t **h_r)
 {
 	listint_t *prv;
 	listint_t *crr;
-	listint_ *nxt;
+	listint_t *nxt;
 
 	prv = NULL;
 	crr = *h_r;
@@ -25,6 +25,7 @@ void reverse(listint_t **h_r)
 
 	*h_r = prv;
 }
+
 /**
  * compare - compares each int of the list
  *
@@ -52,20 +53,26 @@ int compare(listint_t *h1, listint_t *h2)
 			return (0);
 		}
 	}
-	
-	return (1);
+
+	if (tmp1 == NULL && tmp2 == NULL)
+	{
+		return (1);
+	}
+
+	return (0);
 }
 
 /**
- * is_palindrome: checks if a singly linked list
+ * is_palindrome - checks if a singly linked list
  * is a palindrome
  * @head: pointer to head of list
- * Return: 0 if it is not a palindrome, 1 if it is a palindrome
+ * Return: 0 if it is not a palindrome,
+ * 1 if it is a palndrome
  */
 int is_palindrome(listint_t **head)
 {
 	listint_t *slow, *fast, *prev_slow;
-	listint_t *sc_half, *middle;
+	listint_t *scn_half, *middle;
 	int isp;
 
 	slow = fast = prev_slow = *head;
@@ -74,7 +81,7 @@ int is_palindrome(listint_t **head)
 
 	if (*head != NULL && (*head)->next != NULL)
 	{
-		while (fast != NULL && fast-> next != NULL)
+		while (fast != NULL && fast->next != NULL)
 		{
 			fast = fast->next->next;
 			prev_slow = slow;
