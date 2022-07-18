@@ -8,7 +8,7 @@ and `except`.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. Provided by Holberton School.
+* [tests](./tests): Folder of test files. Provided by ALX Africa Software Enginerring School.
 
 ## Function Prototypes :floppy_disk:
 
