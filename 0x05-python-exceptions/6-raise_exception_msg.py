@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 6-raise_exception_msg.py
-# Brennan D Baraban <375@holbertonschool.com>
+# Ahortu Derrick <ahortuderrick0@gmail.com>
 
 
 def raise_exception_msg(message=""):
