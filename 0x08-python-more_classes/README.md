@@ -1,4 +1,5 @@
-# Python - More Classes and Objects
+# 0x08. Python - More Classes and Objects
+
 ![image](src/R.jfif)
 
 In this project, I continued to practice object-oriented programming in Python.
@@ -99,3 +100,5 @@ how to use the special `__str__` and `__repr__` methods.
   * Solutions are printed one per line in the format `[[r, c], [r, c], [r, c],
   [r, c]]` where `r` and `c` represent the row and column, respectively, where a
   queen must be placed.
+
+  ![image](src/Judit-photo1_602x433.jpg.crdownload)
