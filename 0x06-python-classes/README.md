@@ -1,6 +1,9 @@
 # Python - Classes and Objects
 <hr>
-![image](./src/oop-meme.jpg)
+
+
+![image](src/oop-meme.jpg)
+
 
 In this project, I began practicing object-oriented programming using
 classes and objects in Python. I learned about attributes, methods, and
