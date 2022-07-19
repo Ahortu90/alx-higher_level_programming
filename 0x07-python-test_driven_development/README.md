@@ -114,7 +114,10 @@ Prototypes for functions written in this project:
   two matrices using the module `NumPy`.
   * Identical in function to [100-matrix_mul.py](./100-matrix_mul.py).
 
-* **8. CPython #3: Python Strings**
+
 ![image](src/a1.gif)
+
+* **8. CPython #3: Python Strings**
+
   * [102-python.c](./102-python.c): C function that prints basic information about Python
   string objects.
