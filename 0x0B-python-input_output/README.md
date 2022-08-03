@@ -4,7 +4,7 @@ In this project, I practiced file handling in Python. I used the builtin `with`,
 `open`, and `read` functions with the `json` module to read and write files and
 serialize and deserialize objects with JSON.
 
-## `Resources`:file:
+## `Resources`:page_with_curl:
 * [7.2. Reading and Writing Files](https://alx-intranet.hbtn.io/rltoken/hFlrZ9E1XROVWcjwwyF52A)
 * [8.7. Predefined Clean-up Actions](https://alx-intranet.hbtn.io/rltoken/0OZ9fzPRjmKWZsID9IRJSg)
 * [Dive Into Python 3: Chapter 11. Files ](https://alx-intranet.hbtn.io/rltoken/0osPfNU5d3Shh9PFWgYm9A)
