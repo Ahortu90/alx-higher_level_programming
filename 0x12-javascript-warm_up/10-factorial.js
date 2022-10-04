@@ -1,17 +1,12 @@
 #!/usr/bin/node
-const process = require('process');
-
-function factorialize (num) {
-  if (isNaN(num)) {
-    return 1;
+function factorial (n) {
+    if (n < 0) {
+      return (-1);
+    }
+    if (n === 0 || isNaN(n)) {
+      return (1);
+    }
+    return (n * factorial(n - 1));
   }
-  if (num < 0) {
-    return -1;
-  } else if (num === 0) {
-    return 1;
-  } else {
-    return (num * factorialize(num - 1));
-  }
-}
-
-console.log(factorialize(parseInt(process.argv[2])));
+  
+  console.log(factorial(Number(process.argv[2])));
